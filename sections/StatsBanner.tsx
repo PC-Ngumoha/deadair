@@ -1,6 +1,6 @@
 export function StatsBanner() {
   return (
-    <div className="py-8 px-2 bg-wood-brown flex flex-col md:flex-row md:justify-around items-center mb-7.5 gap-15 md:gap-0">
+    <div className="py-8 px-2 bg-wood-brown flex flex-col md:flex-row md:justify-around items-center my-7.5 gap-15 md:gap-0">
       <div className="flex flex-col">
         <div className="font-grotesk flex text-2xl font-bold items-baseline justify-center">
           <h4 className="text-6xl">26</h4>

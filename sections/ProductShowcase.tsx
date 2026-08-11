@@ -5,7 +5,7 @@ export function ProductShowcase() {
   return (
     <section
       id="product"
-      className=" flex flex-col items-center py-4 px-2 mb-7.5"
+      className=" flex flex-col items-center py-4 px-2 my-7.5"
     >
       <div className=" flex flex-col items-center">
         <h2 className="font-grotesk text-2xl md:text-4xl my-2 tracking-tight font-semibold">
