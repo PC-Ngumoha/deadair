@@ -17,12 +17,7 @@ export function Hero() {
         className="bg-black/70 absolute top-0 w-full h-full flex flex-col
       justify-center items-center"
       >
-        <div
-          className="text-[7px] md:text-[10px] tracking-wider uppercase bg-herb-green py-2 px-3
-        border border-emerald-green text-emerald-green rounded-2xl font-bold mb-2"
-        >
-          ai episode editor
-        </div>
+        <div className="tag mb-2">ai episode editor</div>
         <h1
           className="font-grotesk text-5xl md:text-7xl my-4 tracking-tight [word-spacing:5px]
         font-semibold text-white"
@@ -30,10 +25,7 @@ export function Hero() {
           <span>Kill the</span>{" "}
           <span className="text-accent italic">dead air.</span>
         </h1>
-        <p
-          className="text-sm max-w-122 text-center my-4 leading-5 text-white/50
-        tracking-wide"
-        >
+        <p className="section-subtitle">
           Professional podcast editing for creators who value time.
           Automatically remove silences, suppress noise, and master audio in
           seconds.

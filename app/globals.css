@@ -38,7 +38,7 @@
   --color-herb-green: var(--herb-green);
 
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-mono);
   --font-inter: var(--font-inter);
   --font-grotesk: var(--font-space-grotesk);
 }
@@ -58,6 +58,16 @@
 
   .btn-text {
     @apply bg-transparent text-white;
+  }
+
+  .section-subtitle {
+    @apply text-xs md:text-sm max-w-122 text-center my-4 leading-5 text-white/50
+        tracking-wide;
+  }
+
+  .tag {
+    @apply text-[7px] md:text-[10px] tracking-wider uppercase bg-herb-green py-2 px-3
+        border border-emerald-green text-emerald-green rounded-2xl font-bold;
   }
 }
 
