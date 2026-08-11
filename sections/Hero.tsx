@@ -6,7 +6,7 @@ import PlayIcon from "@/assets/icons/play.svg";
 
 export function Hero() {
   return (
-    <main className="relative h-screen">
+    <main className="relative h-screen mb-7.5">
       <Image
         src={Studio}
         alt="Studio setup"
