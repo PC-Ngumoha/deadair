@@ -1,4 +1,5 @@
 import PlayIcon from "@/assets/icons/play.svg";
+import Waveform from "@/components/Waveform";
 
 export function ProductShowcase() {
   return (
@@ -12,7 +13,7 @@ export function ProductShowcase() {
           silences without making the conversation feel robotic.
         </p>
       </div>
-      <div className="min-w-[80%] bg-wood-brown px-3 py-6 mb-2 shadow shadow-black rounded-2xl">
+      <div className="max-w-[80%] bg-wood-brown px-3 py-6 mb-2 shadow shadow-black rounded-2xl overflow-x-hidden">
         <div className="py-4 px-1 flex justify-between items-center">
           <div className="flex items-center gap-1">
             <div className="h-4 w-4 bg-deep-orange rounded-full" />
@@ -23,7 +24,7 @@ export function ProductShowcase() {
           <div className="tag">AI analysis active</div>
         </div>
         <hr />
-        <div className="h-55 md:h-65"></div>
+        <Waveform />
         <div className="flex justify-between items-center gap-4">
           <button
             className="p-1.5 md:p-3 border border-white/60 rounded-full flex items-center

@@ -71,6 +71,20 @@
   }
 }
 
+@layer base {
+  @keyframes wave {
+    0%,
+    100% {
+      transform: scaleY(0.3); /* Shrink vertically */
+      /* background-color: var(--emerald-green); */
+    }
+    50% {
+      transform: scaleY(1); /* Expand to full size */
+      /* background-color: #60a5fa; Shift to a lighter blue accent */
+    }
+  }
+}
+
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
