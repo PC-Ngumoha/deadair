@@ -14,10 +14,10 @@ export function Header() {
   }
 
   return (
-    <header>
-      <nav className="p-3 flex items-center justify-between">
+    <header className="sticky top-0 z-50 backdrop-blur-lg">
+      <nav className=" p-3 flex items-center justify-between">
         <Logo />
-        <ul className="hidden md:flex text-sm gap-3 items-center">
+        <ul className="hidden md:flex text-xs gap-5 items-center">
           <li>
             <a href="#">Features</a>
           </li>
@@ -32,7 +32,7 @@ export function Header() {
           <button className="btn btn-text">Login</button>
           <button className="btn btn-filled">
             <span>Get Started</span>
-            <ArrowRight className="w-5 h-5" />
+            <ArrowRight className="w-3 h-3 stroke-1 fill-solarized-black" />
           </button>
         </div>
         <div className="inline-flex md:hidden" onClick={() => toggleDropDown()}>

@@ -39,11 +39,17 @@
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-inter: var(--font-inter);
+  --font-grotesk: var(--font-space-grotesk);
 }
 
 @layer components {
   .btn {
-    @apply flex justify-center items-center px-3 py-2 rounded-3xl font-semibold text-sm text-center;
+    @apply flex justify-center items-center px-3 py-2 rounded-3xl font-semibold gap-2 text-xs text-center;
+  }
+
+  .btn-lg {
+    @apply flex justify-center items-center px-6 py-3 rounded-3xl font-semibold gap-2 text-xs text-center;
   }
 
   .btn-filled {
@@ -65,5 +71,5 @@
 body {
   background: var(--background);
   color: rgba(255, 255, 255, 0.75);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), sans-serif;
 }

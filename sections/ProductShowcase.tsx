@@ -1,3 +1,3 @@
 export function ProductShowcase() {
-  return null;
+  return "Product showcase";
 }
