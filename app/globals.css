@@ -54,6 +54,10 @@
     @apply flex justify-center items-center px-6 py-3 rounded-3xl font-semibold gap-2 text-xs text-center;
   }
 
+  .btn-xl {
+    @apply flex justify-center items-center px-8 py-4 rounded-3xl font-semibold gap-2 text-xs text-center;
+  }
+
   .btn-filled {
     @apply bg-accent text-black;
   }
