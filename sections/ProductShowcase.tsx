@@ -8,9 +8,7 @@ export function ProductShowcase() {
       className=" flex flex-col items-center py-4 px-2 my-7.5"
     >
       <div className=" flex flex-col items-center">
-        <h2 className="font-grotesk text-2xl md:text-4xl my-2 tracking-tight font-semibold">
-          Intelligent Splicing
-        </h2>
+        <h2 className="section-title">Intelligent Splicing</h2>
         <p className="section-subtitle  ">
           Our AI analyzes the rhythmic patterns of your voice to cut awkward
           silences without making the conversation feel robotic.

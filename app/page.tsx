@@ -1,6 +1,7 @@
 import { Features } from "@/sections/Features";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
+import { Pricing } from "@/sections/Pricing";
 import { ProductShowcase } from "@/sections/ProductShowcase";
 import { StatsBanner } from "@/sections/StatsBanner";
 import { Testimonial } from "@/sections/Testimonial";
@@ -14,6 +15,7 @@ export default function Home() {
       <StatsBanner />
       <Features />
       <Testimonial />
+      <Pricing />
     </main>
   );
 }
