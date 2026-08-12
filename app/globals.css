@@ -19,12 +19,13 @@
   --herb-green: #093333;
   --emerald-green: #14b8a6;
   --deep-orange: #ff5c5c;
+  --highlight-brown: #47371c;
 
   --background: var(--solarized-black);
   /* --foreground: #ffffff; */
   --accent: var(--amber);
 
-  --border: #47371c;
+  --border: var(--highlight-brown);
 }
 
 @theme inline {
@@ -36,6 +37,7 @@
   --color-emerald-green: var(--emerald-green);
   --color-deep-orange: var(--deep-orange);
   --color-herb-green: var(--herb-green);
+  --color-highlight-brown: var(--highlight-brown);
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-mono);
