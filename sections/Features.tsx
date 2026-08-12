@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { JSX } from "react/jsx-runtime";
 
 import Editting1 from "@/assets/images/editting.jpg";
@@ -11,14 +11,14 @@ import Wave from "@/assets/icons/wave.svg";
 import Stack from "@/assets/icons/stack.svg";
 
 type FeatureType = {
-  src: string | JSX.Element;
+  src: string | StaticImageData;
   alt: string;
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon: JSX.ElementType;
 };
 
-const features = [
+const features: FeatureType[] = [
   {
     src: Editting1,
     alt: "Surgical Silence Removal",
@@ -87,7 +87,7 @@ export function Features() {
             </div>
 
             <div className="relative ml-[38%] flex min-h-88 flex-col justify-between rounded-[15px] bg-zinc-900 p-6 shadow-[-12px_0_24px_rgba(0,0,0,0.2)]">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-green text-zinc-950">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-herb-green text-emerald-green">
                 <feature.icon className="h-5 w-5 -rotate-45" />
               </div>
               <div>

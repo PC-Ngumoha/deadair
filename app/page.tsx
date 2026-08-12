@@ -3,6 +3,7 @@ import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 import { ProductShowcase } from "@/sections/ProductShowcase";
 import { StatsBanner } from "@/sections/StatsBanner";
+import { Testimonial } from "@/sections/Testimonial";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ProductShowcase />
       <StatsBanner />
       <Features />
+      <Testimonial />
     </main>
   );
 }
