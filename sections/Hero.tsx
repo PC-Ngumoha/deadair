@@ -15,7 +15,7 @@ export function Hero() {
       />
       <div
         className="bg-black/70 absolute top-0 w-full h-full flex flex-col
-      justify-center items-center"
+      justify-center items-center text-center"
       >
         <div className="tag mb-2">ai episode editor</div>
         <h1
@@ -30,7 +30,7 @@ export function Hero() {
           Automatically remove silences, suppress noise, and master audio in
           seconds.
         </p>
-        <div className="min-w-100 flex items-center gap-2 mt-4">
+        <div className="w-[80%] flex flex-col md:flex-row md:items-center gap-4 md:gap-2 mt-4">
           <button className="flex-1 btn-lg btn-filled shadow-[0px_2px_20px_#f5a62299]">
             <span>Try for free</span>
             <ArrowRight className="h-4 w-4" />

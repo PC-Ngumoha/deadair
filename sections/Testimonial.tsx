@@ -14,9 +14,9 @@ export function Testimonial() {
           <BlockQuote className="h-20 w-12 self-start ml-4 text-highlight-brown" />
           <div className="rounded-lg py-4 mb-2">
             <p className="text-white/75 font-grotesk text-2xl md:text-3xl lg:text-4xl leading-tight tracking-tight [word-spacing:3px]">
-              "This is a powerful testimonial that speaks to the impact and
+              &quot;This is a powerful testimonial that speaks to the impact and
               value of our service. It captures the essence of what makes our
-              product stand out in the market."
+              product stand out in the market.&quot;
             </p>
           </div>
           <div className="w-full p-4 flex justify-start items-center gap-10">
@@ -49,10 +49,10 @@ export function Testimonial() {
         </div>
 
         {/* Two cards on the right */}
-        <div className="flex-1 flex gap-4 md:gap-8 lg:gap-12">
+        <div className="flex-1 flex gap-2 md:gap-8 lg:gap-12">
           {/* Card 1 */}
-          <div className="w-50 md:w-60 flex flex-col items-center gap-4 translate-y-8">
-            <div className="h-50 md:h-60 w-full bg-gray-400 rounded-lg mb-4 overflow-hidden">
+          <div className="w-45 md:w-60 flex flex-col items-center gap-4 translate-y-8">
+            <div className="h-45 md:h-60 w-full bg-gray-400 rounded-lg mb-4 overflow-hidden">
               <Image
                 src={Victor}
                 alt="Random Person"
@@ -66,8 +66,8 @@ export function Testimonial() {
             p-4 rounded-2xl text-sm"
             >
               <p className="my-4 leading-tight tracking-wide">
-                "This is just a random comment by some random user that nobody
-                freaking remembers."
+                &quot;This is just a random comment by some random user that
+                nobody freaking remembers.&quot;
               </p>
               <span className="text-[10px] font-mono uppercase tracking-tight text-emerald-green">
                 —— Ayo Balogun
@@ -76,8 +76,8 @@ export function Testimonial() {
           </div>
 
           {/* Card 2 */}
-          <div className="w-50 md:w-60 flex flex-col-reverse items-center gap-4 -translate-y-8">
-            <div className="h-50 md:h-60 w-full bg-gray-400 rounded-lg mb-4 overflow-hidden">
+          <div className="w-45 md:w-60 flex flex-col-reverse items-center gap-4 -translate-y-8">
+            <div className="h-45 md:h-60 w-full bg-gray-400 rounded-lg mb-4 overflow-hidden">
               <Image
                 src={Emmanuel}
                 alt="Random Person"
@@ -91,8 +91,8 @@ export function Testimonial() {
             p-4 rounded-2xl text-sm"
             >
               <p className="my-4 leading-tight tracking-wide">
-                "This is just a random comment by some random user that nobody
-                freaking remembers."
+                &quot;This is just a random comment by some random user that
+                nobody freaking remembers.&quot;
               </p>
               <span className="text-[10px] font-mono uppercase tracking-tight text-emerald-green">
                 —— Isaac Christopher
