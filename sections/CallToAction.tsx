@@ -6,7 +6,7 @@ export function CallToAction() {
       flex-col justify-center gap-4 border border-highlight-brown"
       >
         <div className="flex flex-col gap-4 items-center text-center">
-          <h2 className="text-5xl font-bold mb-3 text-white font-grotesk tracking-tighter">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 text-white font-grotesk tracking-tighter">
             Stop wasting hours on technicalities.
           </h2>
           <p className="section-subtitle">
@@ -14,7 +14,7 @@ export function CallToAction() {
             cutting. Start your free trial today.
           </p>
         </div>
-        <div className="w-[60%] mx-auto flex justify-center gap-3">
+        <div className="w-[80%] lg:w-[60%] mx-auto flex flex-col md:flex-row justify-center gap-1 md:gap-3">
           <button className="btn-xl btn-filled">Try Deadair for free</button>
           <button className="btn-xl btn-text">Explore the Docs</button>
         </div>
